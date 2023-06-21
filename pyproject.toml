@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "analyze-openai-terms"
+version = "0.1.0"
+description = ""
+authors = ["Roy Ben Yosef"]
+readme = "README.md"
+packages = [{include = "analyze_openai_terms"}]
+
+[tool.poetry.dependencies]
+python = "=3.11.0"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+llama-index = "^0.6.25.post1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
