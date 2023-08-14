@@ -7,7 +7,6 @@ load_dotenv()
 from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, StorageContext, load_index_from_storage
 
 
-
 PERSIST_DIR = "./storage"
 DATA_DIR = "./data"
 
