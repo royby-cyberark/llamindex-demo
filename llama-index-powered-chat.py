@@ -1,9 +1,11 @@
-import shutil
-from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, StorageContext, load_index_from_storage
 import os
-from dotenv import load_dotenv
+import shutil
 
-print(load_dotenv())
+from dotenv import load_dotenv
+load_dotenv()
+
+from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, StorageContext, load_index_from_storage
+
 
 
 PERSIST_DIR = "./storage"
